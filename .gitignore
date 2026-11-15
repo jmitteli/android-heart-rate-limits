@@ -1,0 +1,52 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ===== Gradle build files (generated, rebuilt automatically) =====
+.gradle/
+build/
+.kotlin/
+
+# ===== Local machine settings =====
+# Contains the path to YOUR Android SDK (and often API keys) - never commit
+local.properties
+
+# ===== Android Studio / IntelliJ IDE settings =====
+# Personal IDE settings, differ between machines
+.idea/
+*.iml
+
+# ===== Native (C/C++) build files, if NDK is used =====
+.externalNativeBuild/
+.cxx/
+
+# ===== Build outputs =====
+*.apk
+*.aab
+captures/
+*.log
+
+# ===== SECRETS - never commit these! =====
+secrets.properties
+*.jks
+*.keystore
+*.pem
+.env
+# Firebase config - ignore at least in public repositories
+google-services.json
+
+# ===== Operating system junk =====
+.DS_Store
+Thumbs.db
